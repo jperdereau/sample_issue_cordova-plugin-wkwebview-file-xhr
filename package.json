@@ -14,14 +14,16 @@
   ],
   "devDependencies": {
     "cordova-ios": "6.2.0",
-    "cordova-plugin-whitelist": "1.3.4"
+    "cordova-plugin-whitelist": "1.3.4",
+    "cordova-plugin-wkwebview-file-xhr": "^3.0.0"
   },
   "dependencies": {
     "cordova": "10.0.0"
   },
   "cordova": {
     "plugins": {
-      "cordova-plugin-whitelist": {}
+      "cordova-plugin-whitelist": {},
+      "cordova-plugin-wkwebview-file-xhr": {}
     },
     "platforms": [
       "ios"
